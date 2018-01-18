@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1658923248}
-  m_IndirectSpecularColor: {r: 0.37149104, g: 0.37848267, b: 0.35543168, a: 1}
+  m_IndirectSpecularColor: {r: 0.3714912, g: 0.37848297, b: 0.35543168, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -155,6 +155,48 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b8d441e4d02384636943b0c845fb3899, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &1050488401
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4192145551639180, guid: 1e88acafdd7524347a3422bec5339fe6, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4192145551639180, guid: 1e88acafdd7524347a3422bec5339fe6, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4192145551639180, guid: 1e88acafdd7524347a3422bec5339fe6, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4192145551639180, guid: 1e88acafdd7524347a3422bec5339fe6, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4192145551639180, guid: 1e88acafdd7524347a3422bec5339fe6, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4192145551639180, guid: 1e88acafdd7524347a3422bec5339fe6, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4192145551639180, guid: 1e88acafdd7524347a3422bec5339fe6, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4192145551639180, guid: 1e88acafdd7524347a3422bec5339fe6, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 1e88acafdd7524347a3422bec5339fe6, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &1444307526
 Prefab:
   m_ObjectHideFlags: 0
@@ -168,11 +210,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4311224606054852, guid: 023db4e95bbd2491a8ce1c912366bed2, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 55
+      value: 37.8
       objectReference: {fileID: 0}
     - target: {fileID: 4311224606054852, guid: 023db4e95bbd2491a8ce1c912366bed2, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -45
+      value: -59.4
       objectReference: {fileID: 0}
     - target: {fileID: 4311224606054852, guid: 023db4e95bbd2491a8ce1c912366bed2, type: 2}
       propertyPath: m_LocalRotation.x
@@ -270,7 +312,7 @@ Light:
   serializedVersion: 8
   m_Type: 1
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 0.6
+  m_Intensity: 0.2
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -364,23 +406,6 @@ Prefab:
     - target: {fileID: 4009322898457244, guid: 43a95904e7706490eaaa4bd961c6f3a5, type: 2}
       propertyPath: m_RootOrder
       value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1238056978510804, guid: 43a95904e7706490eaaa4bd961c6f3a5, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1095185985017102, guid: 43a95904e7706490eaaa4bd961c6f3a5, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1598431751723170, guid: 43a95904e7706490eaaa4bd961c6f3a5, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 20518025274215588, guid: 43a95904e7706490eaaa4bd961c6f3a5,
-        type: 2}
-      propertyPath: field of view
-      value: 60
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 43a95904e7706490eaaa4bd961c6f3a5, type: 2}

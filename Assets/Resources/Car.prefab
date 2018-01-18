@@ -588,7 +588,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1853144013007372}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0.080199294, y: -0, z: -0, w: 0.99677885}
   m_LocalPosition: {x: 0, y: 0.448, z: 1.19}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -596,7 +596,7 @@ Transform:
   - {fileID: 4891803911735888}
   m_Father: {fileID: 4283880524377924}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 9.200001, y: 0, z: 0}
 --- !u!4 &4891803911735888
 Transform:
   m_ObjectHideFlags: 1
@@ -1235,9 +1235,9 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1685861454965100}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 5
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -1253,7 +1253,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 2, z: 3}
+  m_Size: {x: 3, y: 2, z: 4}
   m_Center: {x: 0, y: 1, z: 0}
 --- !u!108 &108834553801969962
 Light:
@@ -1265,12 +1265,12 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 0.841, g: 0.9626148, b: 0.9705882, a: 1}
-  m_Intensity: 2
-  m_Range: 100
-  m_SpotAngle: 45
+  m_Intensity: 1
+  m_Range: 30
+  m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -1286,7 +1286,7 @@ Light:
     m_Bits: 4294967295
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 2
+  m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -1301,12 +1301,12 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 0.8392157, g: 0.9607843, b: 0.972549, a: 1}
-  m_Intensity: 2
-  m_Range: 100
-  m_SpotAngle: 45
+  m_Intensity: 1
+  m_Range: 30
+  m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -1322,7 +1322,7 @@ Light:
     m_Bits: 4294967295
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 2
+  m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
