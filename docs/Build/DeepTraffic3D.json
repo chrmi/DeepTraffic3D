@@ -1,0 +1,13 @@
+{
+"companyName": "chrmi.com",
+"productName": "DeepTraffic3D",
+"dataUrl": "DeepTraffic3D.data.unityweb",
+"asmCodeUrl": "DeepTraffic3D.asm.code.unityweb",
+"asmMemoryUrl": "DeepTraffic3D.asm.memory.unityweb",
+"asmFrameworkUrl": "DeepTraffic3D.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}

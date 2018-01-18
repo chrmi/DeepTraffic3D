@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DeepTraffic3D :: A Unity 3D WebGL view of the DeepTraffic project as part of MIT 6.S094 Deep Learning for Self-Driving Cars">
+    <title>DeepTraffic3D Deep Learning for Self-Driving Cars in 3D [Unity / WebGL]</title>
+    <link rel="stylesheet" type="text/css" href="DeepTraffic3D.css" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/DeepTraffic3D.json");
+    </script>
+    <script src="convnet.js"></script>
+</head>
+<body>
+  <div id="loader">
+    <p>Loading...</p>
+  </div>
+  <div id="gameContainer"></div>
+  <script src="DeepTraffic3D.js"></script>
+</body>
+</html>
