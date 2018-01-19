@@ -12,6 +12,6 @@ public class Car : MonoBehaviour {
 
     void FixedUpdate()
     {
-        rb.AddForce(force: new Vector3(0f, 0f, Random.Range(-5f, 28f)));
+        rb.AddForce(force: new Vector3(0f, 0f, Random.Range(-30f, 135f)));
     }
 }

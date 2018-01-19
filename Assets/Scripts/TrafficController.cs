@@ -1,30 +1,28 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System.Runtime.InteropServices;
-public class TrafficController : MonoBehaviour {
-    #if UNITY_WEBGL
-   [DllImport("__Internal")]
-    private static extern void FinishLoading();
-    #endif
+
+public class TrafficController : MonoBehaviour
+{
+    List<GameObject> cars = new List<GameObject>();
 
     void PlaceCars()
     {
-        for (int i = 0; i < 7; i++)
+        int[] lanePositions = { -12, -8, -4, 0, 4, 8, 12 };
+        GameObject car = (GameObject)Resources.Load("Car");
+        for (int i = -45; i <= 50; i += 20)
         {
-            if (i == 3)
-                continue;
-            GameObject car = Instantiate((GameObject)Resources.Load("Car"));
-            Vector3 carPos = car.GetComponent<Transform>().position;
-            car.GetComponent<Transform>().position = new Vector3((i * 4) - 12, carPos.y, Random.Range(-30f, 30f));
-            Object.Destroy(car, 400f);
+            for (int j = 0; j < lanePositions.Length; j++)
+            {
+                GameObject c = Instantiate(car);
+                c.GetComponent<Transform>().position = new Vector3(lanePositions[j], 0, i);
+                cars.Add(c);
+            }
         }
     }
+
     void Start()
     {
-        #if UNITY_WEBGL
-        FinishLoading();
-        #endif
         PlaceCars();
     }
 }
